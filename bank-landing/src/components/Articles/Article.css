@@ -1,0 +1,43 @@
+.article {
+    background-color: white;
+}
+
+.atricle__header {
+    height: 200px;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.atricle__header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.article__author {
+    font-size: 0.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.article__content>h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+}
+
+.article__content>h5:hover {
+    cursor: pointer;
+    color: hsl(136, 65%, 51%);
+}
+
+.article__content {
+    padding: 1rem;
+}
+
+.latestArticle__text {
+    line-height: 1rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: hsl(233, 8%, 62%);
+    padding-bottom: 0.5rem;
+}

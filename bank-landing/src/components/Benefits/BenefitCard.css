@@ -1,0 +1,21 @@
+.benefitCard>* {
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.benefitCard>h3 {
+    font-weight: 400;
+}
+
+.benefitCard>p {
+    color: hsl(233, 8%, 62%);
+}
+
+@media (max-width: 748px) {
+    .benefitCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
